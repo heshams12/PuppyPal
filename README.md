@@ -15,7 +15,7 @@ The demo of the Puppy-Pal application can be found [here]
 
 To run the application locally, first clone this repository with the following command.
 
-	git clone git@github.com:Team-Johnnycake-Cobblers/Puppy-Pal-App.git
+	git clone git@github.com:heshams12/PuppyPal.git
 	
 Next, install the application dependencies.
 
