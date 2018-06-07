@@ -1,0 +1,42 @@
+<div class="uk-container uk-container-small">
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar id="shelterNavBar">
+        <img src="img/paw_print.jpeg" id="paw" alt="">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="/">Home</a>
+                </li>
+                <li class="uk-active">
+                    <a href="/puppies" id="gallery">Gallery</a>
+                </li>
+                <li class="uk-active">
+                    <a href="/shelter">Shelter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <div id="alertHere"></div>
+    <p class="uk-text-muted">Enter the dog's ID number to search</p>
+
+    <form class="uk-form-horizontal uk-margin-small" id="searchForm">
+
+        <div class="uk-width-1-2@s">
+            <label class="uk-form-label" for="form-horizontal-text">
+                <span uk-icon="icon: search"></span>ID Number</label>
+            <div class="uk-form-controls">
+                <input class="uk-input" id="idNumber" type="text" placeholder="1234">
+            </div>
+        </div>
+        <br>
+        <button class=" uk-button uk-button-secondary" id="searchSubmit">Submit</button>
+    </form>
+    <br>
+
+    <div id='searchResults'></div>
+
+    <footer>
+        <a href="https://github.com/Team-Johnnycake-Cobblers" class="uk-icon-button" uk-icon="github"></a> |
+        <a href="/api/puppies" class="uk-text-muted getApiList">API puppies List</a>
+    </footer>
+</div>

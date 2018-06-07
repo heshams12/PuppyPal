@@ -1,0 +1,28 @@
+<div class="uk-container-small" id="slideshowContainer">
+    <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle uk-background-top-center"
+        style="background-image: url(/img/banner-image-revised.png);">
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <a href="/" class="uk-icon-button uk-position-top-left" id="homeButton" uk-icon="home"></a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="min-height: 300; max-height: 500;" id="slideshowDiv">
+
+        <ul class="uk-slideshow-items" id="slideshow"></ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous" id="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hover" href="#" uk-slidenav-next uk-slideshow-item="next" id="next"></a>
+    </div>
+</div>
+<br>
+<footer class="uk-text-muted">
+    Copyright 2018 |
+    <a href="/shelter" class="uk-text-muted goToShelter">Shelter? Click here</a>
+</footer>

@@ -1,0 +1,86 @@
+#sheltitle, 
+.puppy {
+    text-align: center;   
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.09091;
+}
+
+#sheltitle {
+    font-family: 'Raleway', sans-serif;
+}
+
+.puppy {
+    font-family: 'Yellowtail', cursive !important;
+}
+
+.uk-background-cover {
+    max-height: 215px;
+}
+
+#button1 {
+    position: relative;
+    display: block;
+    margin: 0 auto; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px !important;
+}
+
+footer {
+    text-align: center;
+    font-size: small; 
+}
+
+#shelterNavBar {
+   height: 40px;
+}
+
+#slideshowContainer {
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+#overlay {
+    padding: 10px;
+}
+
+.backButton {
+    margin: 10px auto; 
+    display: block; 
+}
+
+#profileImageOnPage {
+    width: 35vw;
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:rgb(0, 123, 255); 
+}
+
+.aboutHeading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+}
+
+.aboutText {
+    font-size: 1.10rem;
+}
+#paw{
+    width: 80px;
+    height: 60px;
+}
+
+#searchCard {
+    margin: 0 auto; 
+    display: block; 
+    width: 50vw; 
+}
+
+#searchImage {
+    margin: 20px; 
+}
+
+#homeButton {
+    margin: 10px;
+}
+
